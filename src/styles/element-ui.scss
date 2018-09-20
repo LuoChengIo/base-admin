@@ -1,0 +1,207 @@
+ //to reset element-ui default css
+ .box-wrap{
+    height: 100px;
+  .live-srollbar{
+    height: 100%;
+  }
+  .el-scrollbar__wrap{
+    overflow-x: hidden;
+  }
+  .el-scrollbar__view{
+    min-height: 100%
+  }
+}
+// 滚动条颜色
+// .el-scrollbar__thumb{
+//   background-color: #a7a7a7;
+//  }
+.sidebar-container{
+  .el-menu{
+    border: none;
+    .el-icon-arrow-down{
+      font-size: 12px;
+      color: #C2D7E6;
+      margin-top: -6px;
+    }
+    .el-menu-item {
+      &.is-active{
+        background-color: #4099E6!important;
+      }
+    }
+  }
+  .el-submenu__title{
+    height: 50px;
+    line-height: 50px;
+  }
+  .el-submenu {
+    border-bottom: 2px solid #131E27;
+    &:last-child{
+      border: none;
+    }
+    .el-menu-item{
+      background-color: #131E27!important;
+      min-width:180px;
+    }
+  }
+}
+// 面包屑样式修改
+.el-breadcrumb{
+  .el-breadcrumb__inner{
+    font-size: 13px;
+    // color: #428BCA;
+  }
+  .el-breadcrumb__separator{
+    margin: 0 5px;
+  }
+  .b-last{
+    .el-breadcrumb__inner{
+      color:#999;
+      &:hover{
+        color:#999;
+      }
+    }
+  }
+}
+// 自定义行内表单样式
+.form-inline{
+  padding-top: 20px;
+  .el-form-item__label{
+    vertical-align: top;
+    margin-left: 10px;
+  }
+  .el-range-separator{
+    width: 20px;
+  }
+}
+// 自定义table样式
+.cont-table{
+  padding-top: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow-y: auto;
+  box-shadow:0px 0px 10px 0px rgba(51,51,51,0.05);
+}
+.cont-info{
+  height: 100%;
+  padding: 27px 70px;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow-y: auto;
+  box-shadow:0px 0px 10px 0px rgba(51,51,51,0.05);
+}
+.custom-table{
+  th{
+    background:rgba(239,239,239,1);
+    color: #333;
+  }
+  .cancsl{
+    .cell{
+      color: #999;
+    }
+  }
+  a{
+    color: currentColor;
+    &:hover{
+      color: #4099E6;
+    }
+  }
+  .cell{
+    line-height: 20px;
+  }
+  th,td{
+    padding: 10px 0;
+  }
+  &.el-table--border{
+    td {
+      border-right: none;
+    }
+  } 
+}
+// 自定义头像上传样式
+.custom-uploader{
+  .avatar-uploader .el-upload {
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 100px;
+    overflow: hidden;
+  }
+  .avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+  }
+  .avatar {
+    width: 60px;
+    height: 60px;
+    display: block;
+  }
+}
+// 自定义表单样式
+.search-from{
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-shadow:0px 0px 10px 0px rgba(51,51,51,0.05);
+  .el-form-item__label{
+    color: #333;
+  }
+  .el-form-item{
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .el-input{
+    width: 110px;
+  }
+  .el-range-editor{
+    width: 220px;
+  }
+}
+.custom-from{
+  width: 985px;
+  padding: 0px;
+  .item{
+    width: 48%;
+    margin-bottom:25px;
+    &.db{
+      width: auto;
+      display: block;
+    }
+  }
+  .nolabel {
+    .el-form-item__label{
+      visibility: hidden;
+    }
+  }
+  .el-range-editor{
+    width: 220px;
+  }
+  .el-range-separator{
+    width: 20px;
+  }
+  .el-input-number{
+    .el-input{
+      width: auto;
+    }
+  }
+  .el-input{
+    width: 220px;
+  }
+  .el-select{
+    width: 220px;
+  }
+  .el-textarea{
+    width: 685px;
+  }
+  .mt50{
+    margin-top: 50px;
+  }
+}

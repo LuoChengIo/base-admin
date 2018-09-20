@@ -1,0 +1,111 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=renderer content=webkit><meta http-equiv=X-UA-Compatible content="IE=Edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1"><title>数字钱包BI系统</title><style>.browser-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1000;
+      background: #fff;
+    }
+
+    .browser-ct {
+      width: 800px;
+      margin: 10% auto;
+    }
+
+    .browser-ct .warn {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 75px;
+      width: 179px;
+    }
+
+    .browser-tip {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 75px;
+    }
+
+    .clearfix:after {
+      content: ".";
+      font-size: 0;
+      display: block;
+      height: 0;
+      visibility: hidden;
+      clear: both;
+    }
+
+    .clearfix {
+      zoom: 1;
+    }
+
+    .browser-list {
+      text-align: center;
+    }
+
+    .browser-list .left {
+      position: relative;
+      float: left;
+    }
+
+    .browser-list .left:after {
+      position: absolute;
+      content: '';
+      top: 50%;
+      right: 0;
+      width: 1px;
+      height: 50px;
+      margin-top: -25px;
+      background-color: #f1f1f1;
+    }
+
+    .browser-list .right {
+      float: left;
+    }
+
+    .browser-list img {
+      display: block;
+      margin: 0 auto;
+      width: 74PX;
+      border: none;
+      margin-bottom: 20px;
+    }
+
+    .browser-list a {
+      display: block;
+      width: 400px;
+      text-align: center;
+      color: #3e7ac2;
+      font-size: 16px;
+      text-decoration: none;
+    }</style><link rel="shortcut icon" href=./favicon.ico><link href=./static/css/chunk-libs.64ae6ea5.css rel=stylesheet><link href=./static/css/app.014b34e7.css rel=stylesheet></head><body><div id=browserLt class=browser-bg style="display: none"><div class=browser-ct><img class=warn src=/static/img/brt-tip.png alt="" srcset=""><p class=browser-tip>你正在使用的浏览器版本过低，将不能正常浏览和使用系统。</p><div class="browser-list clearfix"><a class=left href=https://www.microsoft.com/zh-cn/download/internet-explorer.aspx><img src=/static/img/IE.png alt=""><div>升级你的ie</div></a><a class=right href=http://www.google.com/chrome/ ><img style="width: 121px;" src=/static/img/chrome.jpg alt=""><div>使用 Google Chrome 浏览器</div></a></div></div></div><div id=app></div><script>!function(e){function t(t){for(var r,u,c=t[0],i=t[1],f=t[2],l=0,d=[];l<c.length;l++)u=c[l],o[u]&&d.push(o[u][0]),o[u]=0;for(r in i)Object.prototype.hasOwnProperty.call(i,r)&&(e[r]=i[r]);for(s&&s(t);d.length;)d.shift()();return a.push.apply(a,f||[]),n()}function n(){for(var e,t=0;t<a.length;t++){for(var n=a[t],r=!0,u=1;u<n.length;u++){var i=n[u];0!==o[i]&&(r=!1)}r&&(a.splice(t--,1),e=c(c.s=n[0]))}return e}var r={},u={runtime:0},o={runtime:0},a=[];function c(t){if(r[t])return r[t].exports;var n=r[t]={i:t,l:!1,exports:{}};return e[t].call(n.exports,n,n.exports,c),n.l=!0,n.exports}c.e=function(e){var t=[];u[e]?t.push(u[e]):0!==u[e]&&{"chunk-1077":1,"chunk-22d3":1,"chunk-625a":1,"chunk-871f":1,"chunk-8d3e":1,"chunk-d10a":1,"chunk-f7ba":1}[e]&&t.push(u[e]=new Promise(function(t,n){for(var r="static/css/"+({}[e]||e)+"."+{"chunk-1077":"b372638a","chunk-22d3":"27c1c466","chunk-625a":"52f0ac93","chunk-871f":"4a4eb2a1","chunk-8d3e":"25e46631","chunk-d10a":"9e03a3cc","chunk-f7ba":"8990fadc"}[e]+".css",u=c.p+r,o=document.getElementsByTagName("link"),a=0;a<o.length;a++){var i=(l=o[a]).getAttribute("data-href")||l.getAttribute("href");if("stylesheet"===l.rel&&(i===r||i===u))return t()}var f=document.getElementsByTagName("style");for(a=0;a<f.length;a++){var l;if((i=(l=f[a]).getAttribute("data-href"))===r||i===u)return t()}var s=document.createElement("link");s.rel="stylesheet",s.type="text/css",s.onload=t,s.onerror=function(t){var r=t&&t.target&&t.target.src||u,o=new Error("Loading CSS chunk "+e+" failed.\n("+r+")");o.request=r,n(o)},s.href=u,document.getElementsByTagName("head")[0].appendChild(s)}).then(function(){u[e]=0}));var n=o[e];if(0!==n)if(n)t.push(n[2]);else{var r=new Promise(function(t,r){n=o[e]=[t,r]});t.push(n[2]=r);var a,i=document.getElementsByTagName("head")[0],f=document.createElement("script");f.charset="utf-8",f.timeout=120,c.nc&&f.setAttribute("nonce",c.nc),f.src=function(e){return c.p+"static/js/"+e+"."+{"chunk-1077":"d145b350","chunk-22d3":"0beaedf2","chunk-625a":"1ec05752","chunk-871f":"a89fc709","chunk-8d3e":"70b7c172","chunk-d10a":"0868e899","chunk-f7ba":"2e9854b9"}[e]+".js"}(e),a=function(t){f.onerror=f.onload=null,clearTimeout(l);var n=o[e];if(0!==n){if(n){var r=t&&("load"===t.type?"missing":t.type),u=t&&t.target&&t.target.src,a=new Error("Loading chunk "+e+" failed.\n("+r+": "+u+")");a.type=r,a.request=u,n[1](a)}o[e]=void 0}};var l=setTimeout(function(){a({type:"timeout",target:f})},12e4);f.onerror=f.onload=a,i.appendChild(f)}return Promise.all(t)},c.m=e,c.c=r,c.d=function(e,t,n){c.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},c.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},c.t=function(e,t){if(1&t&&(e=c(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(c.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var r in e)c.d(n,r,function(t){return e[t]}.bind(null,r));return n},c.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return c.d(t,"a",t),t},c.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},c.p="./",c.oe=function(e){throw console.error(e),e};var i=window.webpackJsonp=window.webpackJsonp||[],f=i.push.bind(i);i.push=t,i=i.slice();for(var l=0;l<i.length;l++)t(i[l]);var s=f;n()}([]);</script><script src=./static/js/chunk-elementUI.11c4246a.js></script><script src=./static/js/chunk-libs.c900037e.js></script><script src=./static/js/app.7b0ff6cb.js></script></body><script>var isIE = (function() {
+      var browser = {}
+      return function(ver, c) {
+        var key = ver ? (c ? 'is' + c + 'IE' + ver : 'isIE' + ver) : 'isIE'
+        var v = browser[key]
+        if (typeof (v) !== 'undefined') {
+          return v
+        }
+        if (!ver) {
+          v = (navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') > 0)
+        } else {
+          var match = navigator.userAgent.match(/(?:MSIE |Trident\/.* rv:|Edge\/)(\d+)/)
+          if (match) {
+            var v1 = parseInt(match[1])
+            v = c ? (c === 'lt' ? v1 < ver : (c === 'gt' ? v1 > ver : undefined)) : v1 === ver
+          } else if (ver <= 9) {
+            var b = document.createElement('b')
+            var s = '<!--[if ' + (c ? c : '') + ' IE ' + ver + ']><i></i><![endif]-->'
+            b.innerHTML = s
+            v = b.getElementsByTagName('i').length === 1
+          } else {
+            v = false
+          }
+        }
+        browser[key] = v
+        return v
+      }
+    }())
+    if (isIE(10, 'lt')) {
+      document.getElementById('browserLt').style.display = 'block'
+    }</script></html>
